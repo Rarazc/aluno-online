@@ -15,7 +15,7 @@ class Nota {
     }
 
     mediaCA() {
-        if(this.mediaFinal() >= 0,1 && this.mediaFinal() <3){
+        if(this.mediaFinal() >= 0.1 && this.mediaFinal() <3){
             return "II";
         }
         else if(this.mediaFinal() >= 3 && this.mediaFinal() <5){
@@ -27,7 +27,7 @@ class Nota {
         else if(this.mediaFinal() >= 7 && this.mediaFinal() <9){
             return "MS";
         }
-        else if(this.mediaFinal() >= 9 && this.mediaFinal() <10){
+        else if(this.mediaFinal() >= 9 && this.mediaFinal() <=10){
             return "SS";
         }
         else{
