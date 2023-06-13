@@ -10,7 +10,10 @@ describe('testando o aluno online',()=>{
         cy.get('#inputDisciplina').select(1)
     })
     it('selecionando prova',()=>{
-        cy.get('#inputProva').select(1)
+        cy.get('#inputProva').select(3)
+    })
+    it('texto',()=>{
+        cy.get('#inputArgumentacao').type('gostaria de solicitar a prova p3')
     })
     it('enviando',()=>{
         cy.get('.btn-danger').click()
